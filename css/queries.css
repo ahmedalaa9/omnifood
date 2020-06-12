@@ -1,0 +1,103 @@
+
+@media (max-width:1200px){
+body{
+    font-size: 18px;
+}
+section{
+    padding:70px 0;
+}
+}
+
+
+@media (max-width:1023px){
+    body{
+        font-size: 18px;
+    }
+    .contanier{width:96%}
+    section{
+        padding:70px 0;
+    }
+    h1{
+        font-size: 200%;
+        font-weight: 300;
+       
+    }
+    h2{ font-size: 150%    }
+    ul li { margin:5px;
+        margin-top: 50px   }
+    ul li a { padding: 8px 1px;   }
+    .featurs .long{
+        width: 80%;
+        margin-left: 10%;}
+        .work-img img {width:50%;padding-top: 1%;}
+        .btn-app img{ height: 40x  }
+        .city-cont p i { font-size: 110%;
+            margin-right: 2px;}
+            .city-cont p a{font-size: 90%}
+            .plan-head p:first-of-type{ font-size: 250%}
+            .plans{ width: 32.5%;}
+            form{width: 85%}
+}
+
+@media (max-width:767px){
+    body{
+        font-size: 16px;
+    }
+    .contanier{width:90%}
+    section{
+        padding:50px 0;
+    }
+    h1{
+        font-size: 180%;
+        font-weight: 300;
+       
+    }
+    h2{ font-size: 150%    }
+    
+    header ul {display: none;}
+    .featurs .long{width: 100%;  margin-left: 0%}
+    .foodfast-content{ display: -webkit-box; display: -ms-flexbox; display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap }
+    .fastCont{width: 100%}
+    .work-steps { margin-bottom: 25px }
+    .work-img{ width: 100%;text-align: center}
+    .work-img img {width: 40%}
+    .step-box{margin-top: 1.5%;
+        width:100%;}
+    .step-box p{padding-top: 2%;}  
+    .work-steps span {
+        width: 40px;
+        height: 40px;
+        line-height: 35px;
+        font-size: 130%;
+        margin-right: 2%;
+    }
+
+    .cont-cities{-ms-flex-wrap: wrap;flex-wrap: wrap}
+    .city-cont { width: 100%;margin-bottom: 4%;}
+
+    .cost-cont{-ms-flex-wrap: wrap;flex-wrap: wrap;}
+    .opinions{width: 100%;margin-bottom: 7%;}
+
+    .our-plans{-ms-flex-wrap: wrap;flex-wrap: wrap}
+    .plans{width: 100%;margin-bottom: 7%;}
+    .plan-head p:first-of-type{ font-size: 300%}
+
+
+    
+.inf{   -ms-flex-wrap: wrap;   flex-wrap: wrap;}
+
+.inf div:first-of-type{ width: 100%;margin-bottom: 3%;  }
+.inf div:last-of-type{    width: 100%;}
+
+.footer-nav{-ms-flex-wrap: wrap;flex-wrap: wrap}
+.footer-nav div:last-of-type {text-align: right;width: 100%;}
+    
+
+
+}
+
+
+@media (max-width:480px){
+
+/* not need now  */
+}
